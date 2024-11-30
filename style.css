@@ -18,19 +18,17 @@ header{
 
 .mm{
     text-align: center;
-    border: 5px solid darkgreen;
-    border-radius: 15px;
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    background-image: linear-gradient(to right,green, chartreuse, lightgreen)
+    color: #ffffff;
 }
 
 .bb{
     margin: 30px;
     text-decoration: none;
     font-size: 28px;
-    color: rgb(1, 78, 1);
+    color: rgb(255, 255, 255);
 }
 
 h1{
@@ -41,62 +39,35 @@ h1{
 }
 
 
-article img{
-    width: 300px;
-    height: 350px;
-    object-fit: contain; /* Зображення покриває блок, зберігаючи пропорції */
-    display: block;
-    margin-bottom: 8px;
-}
-
-.img{
-    width: 150px;
-    height: 200px;
-    object-fit: cover; /* Зображення покриває блок, зберігаючи пропорції */
-    display: block
-}
-
 section{
+    width: 90%;
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    gap: 16px;
-    margin: 15px;
-    border: 5px solid black;
-    border-radius: 10px;
-    background-image: linear-gradient(to right,green, chartreuse, lightgreen);
-    padding: 15px;
+    justify-items: center;
+    background-color: rgb(15, 15, 15);
+    margin: 70px;
+    border: darkgreen dashed  10px;
 }
 
 article{
-    width: calc(25% - 16px);
-    background-color: rgb(207, 218, 229);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    overflow: hidden; 
-    position: relative;
+    width: 150px;
     text-align: center;
-    box-sizing: border-box;
-    height: 400px;
-    align-items: center;
+    margin: 50px;
+    background-color: #ffffff;
+    width: 220px;
+    height: 340px;
+    border: darkgreen solid 5px;
 }
 
 article p{
-    background: rgb(207, 218, 229); 
-    color: rgb(0, 0, 0);
-    padding: 8px;
-    margin: 0;
-    position: relative;
-    z-index: 1; 
-    font-size: 20px;
+    color: #000000;
+    
 }
 
-article b{
-    color: rgb(162, 48, 48);
-}
 
 .logo{
-    color: #ffffff;
+    color: white;
     position: relative;
     top: 10px;
     font-size: 80px;
@@ -154,3 +125,49 @@ div{
     position: relative;
     left: 70px;
 }
+
+article img{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.k{
+    height: 250px;
+}
+
+nav a:visited{
+    color: darkgreen;
+}
+
+nav a:hover{
+    color: darkgreen;
+}
+
+footer a:hover{
+     color: greenyellow;
+}
+
+.p{
+    margin: 15px;
+    border: darkgreen solid 15px;
+    margin-left: 70px;
+}
+
+.p p{
+    color: white;
+    padding: 15px;
+}
+
+.p h2{
+    color: #ffffff;
+}
+
+.p ul{
+    color: #ffffff;
+}
+
+.con{
+    margin-bottom: 20px;
+}
+
